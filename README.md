@@ -44,7 +44,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 ### Developed by: ANU VARSHINI M B
 ### RegisterNumber:212223240010
 
-
+```
 module ex11(out,clk,rstn);
 input clk,rstn;
 output reg [3:0]out;
@@ -56,7 +56,7 @@ if(!rstn)
      out <= out+1;
 end
 endmodule
-
+```
 
 
 *RTL LOGIC UP COUNTER*
